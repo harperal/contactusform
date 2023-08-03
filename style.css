@@ -1,0 +1,65 @@
+.form {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 40px;
+  margin-top: 80px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form p {
+  margin: 0;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form select {
+  height: 40px;
+}
+
+.form .option {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.form .option .input-container {
+  display: flex;
+  align-items: center;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+  margin: 0;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: #1e60c2;
+}
+.form-title {
+  text-align: center;
+}
